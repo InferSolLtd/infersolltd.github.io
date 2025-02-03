@@ -21,7 +21,7 @@ machine learning and data anlaysis problems as well as hands on solutions.
         <p>Expert data analysis to advance your goals</p>
     </div>
     <div class="box">
-        <img src="assets/presentaion.png" alt="Workshops">
+        <img src="assets/presentation.png" alt="Workshops">
         <p>Workshops and tutorials to teach your workforce new skills</p>
     </div>
 </div>
