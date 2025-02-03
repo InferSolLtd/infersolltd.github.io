@@ -1,11 +1,4 @@
----
-layout: page
-title: "InferSol Ltd"
----
-
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-
-## Who are we
 
 InferSol Ltd are a Cambridge based consultancy firm offering advice on 
 machine learning and data anlaysis problems as well as hands on solutions.
@@ -18,7 +11,7 @@ machine learning and data anlaysis problems as well as hands on solutions.
     </div>
     <div class="box">
         <img src="assets/analysis.png" alt="Data Analysis">
-        <p>Expert data analysis to advance your goals</p>
+        <p>Expert data analysis to advance your companies goals</p>
     </div>
     <div class="box">
         <img src="assets/presentation.png" alt="Workshops">

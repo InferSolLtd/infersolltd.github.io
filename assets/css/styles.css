@@ -1,16 +1,10 @@
 .container {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    width: 80%;
-    max-width: 1200px;
-}
-
-body, header, nav {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: none;
+    justify-content: center;  /* Horizontally center the boxes */
+    align-items: center;      /* Vertically center the boxes */
+    gap: 20px;                /* Add space between boxes */
+    height: 5vh;            /* Use full height of the viewport */
+    flex-wrap: wrap;          /* Allow wrapping for smaller screens */
 }
 
 .box {
