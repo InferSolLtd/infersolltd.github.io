@@ -17,11 +17,11 @@ machine learning and data anlaysis problems as well as hands on solutions.
         <p>Small scale Machine Learning applications for your buisness</p>
     </div>
     <div class="box">
-        <img src="analysis.png" alt="Data Analysis">
+        <img src="assets/analysis.png" alt="Data Analysis">
         <p>Expert data analysis to advance your goals</p>
     </div>
     <div class="box">
-        <img src="presentaion.png" alt="Workshops">
+        <img src="assets/presentaion.png" alt="Workshops">
         <p>Workshops and tutorials to teach your workforce new skills</p>
     </div>
 </div>
