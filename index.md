@@ -13,15 +13,15 @@ machine learning and data anlaysis problems as well as hands on solutions.
 
 <div class="container">
     <div class="box">
-        <img src="image1.jpg" alt="Image 1">
-        <p>Text for the first box goes here.</p>
+        <img src="assets/deep-learning.png" alt="Machine Learning">
+        <p>Small scale Machine Learning applications for your buisness</p>
     </div>
     <div class="box">
-        <img src="image2.jpg" alt="Image 2">
-        <p>Text for the second box goes here.</p>
+        <img src="analysis.png" alt="Data Analysis">
+        <p>Expert data analysis to advance your goals</p>
     </div>
     <div class="box">
-        <img src="image3.jpg" alt="Image 3">
-        <p>Text for the third box goes here.</p>
+        <img src="presentaion.png" alt="Workshops">
+        <p>Workshops and tutorials to teach your workforce new skills</p>
     </div>
 </div>
