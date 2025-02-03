@@ -1,3 +1,7 @@
+---
+layout: page
+title: "Home"
+---
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
 InferSol Ltd are a Cambridge based consultancy firm offering advice on 
