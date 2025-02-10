@@ -1,27 +1,51 @@
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .box {
-    text-align: center;
-    max-width: 300px;
-    flex: 1;
-    margin: 20px;
-  }
-  
-  .service-image {
-    width: 100%;
-    height: auto;
-    max-width: 200px;
-    margin-bottom: 15px;
-  }
-  
-  p {
-    font-size: 1.1em;
-    color: #333;
-  }
-  
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.box {
+text-align: center;
+max-width: 300px;
+flex: 1;
+margin: 20px;
+}
+
+.service-image {
+width: 100%;
+height: auto;
+max-width: 200px;
+margin-bottom: 15px;
+}
+
+.content-container {
+display: flex;
+align-items: center; /* Align items vertically */
+justify-content: space-between;
+gap: 20px;
+flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.text {
+flex: 1; /* Take up available space */
+max-width: 60%; /* Limit width of text section */
+}
+
+.image {
+flex: 0 0 auto; /* Don't let the image stretch */
+max-width: 40%; /* Limit width of the image */
+}
+
+.portrait {
+width: 100%; /* Make image scale with the container size */
+max-width: 200px; /* Optional: Limit maximum size */
+height: auto; /* Maintain aspect ratio */
+border-radius: 25%; /* Optional: Circular image */
+}
+
+p {
+font-size: 1.1em;
+color: #333;
+}
