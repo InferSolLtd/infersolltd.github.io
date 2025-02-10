@@ -12,7 +12,7 @@ We are a Cambridge-based consultancy specializing in machine learning and data a
 
 To get in touch and discuss how we can help your buisness grow drop us an email
 at <a href="mailto:infersol.coms@gmail.co.uk">infersol.coms@gmail.co.uk</a> 
-or have a look at our <a href="infersol.co.uk/contact.html">contact page</a>.
+or have a look at our <a href="https://infersol.co.uk/contact.html">contact page</a>.
 
 <div class="container">
     <div class="box">
