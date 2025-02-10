@@ -21,10 +21,10 @@ or have a look at our <a href="https://infersol.co.uk/contact.html">contact page
     </div>
     <div class="box">
         <img src="assets/analysis.png" alt="Data Analysis" class="service-image">
-        <p>We provide expert data analysis to help you make data-driven decisions that advance your company's goals.</p>
+        <p>Expert data analysis to help you make data-driven decisions that advance your company's goals.</p>
     </div>
     <div class="box">
         <img src="assets/presentation.png" alt="Workshops" class="service-image">
-        <p>Join our workshops and tutorials designed to teach your workforce valuable new skills in data science and machine learning.</p>
+        <p>Workshops and tutorials designed to teach your workforce valuable new skills in data science and machine learning.</p>
     </div>
 </div>
