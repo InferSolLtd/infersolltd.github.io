@@ -1,31 +1,27 @@
 .container {
     display: flex;
-    justify-content: center;  /* Horizontally center the boxes */
-    align-items: center;      /* Vertically center the boxes */
-    gap: 20px;                /* Add space between boxes */
-    height: 5vh;            /* Use full height of the viewport */
-    flex-wrap: wrap;          /* Allow wrapping for smaller screens */
-}
-
-.box {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box {
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    flex: 1;
     max-width: 300px;
-}
-
-.box img {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .service-image {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
