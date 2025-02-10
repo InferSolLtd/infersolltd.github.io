@@ -1,6 +1,6 @@
 theme: minima
 title: InferSol Ltd
-description: Pages for InferSol Ltd
+description: Cambridge, UK, infersol.coms@gmail.com
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
