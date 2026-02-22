@@ -1,6 +1,16 @@
 theme: minima
 title: InferSol Ltd
-description: Cambridge, UK, infersol.coms@gmail.com
+description: Cambridge, UK — Machine Learning & Data Analysis Consultancy
+email: infersol.coms@gmail.com
+
+github_username: InferSolLtd
+
+header_pages:
+  - index.md
+  - people.md
+  - news.md
+  - contact.md
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

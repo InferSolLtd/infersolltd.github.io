@@ -10,8 +10,8 @@ title: "Home"
 
 We are a Cambridge-based consultancy specializing in machine learning and data analysis. Our mission is to provide expert guidance and hands-on solutions to help businesses leverage the power of data and machine learning.
 
-To get in touch and discuss how we can help your buisness grow drop us an email
-at <a href="mailto:infersol.coms@gmail.co.uk">infersol.coms@gmail.co.uk</a> 
+To get in touch and discuss how we can help your business grow drop us an email
+at <a href="mailto:infersol.coms@gmail.com">infersol.coms@gmail.com</a> 
 or have a look at our <a href="https://infersol.co.uk/contact.html">contact page</a>.
 
 <div class="container">
