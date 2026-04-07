@@ -9,7 +9,7 @@ permalink: /contact.html
     <p>We’d love to hear from you! Whether you have a project in mind, need expert advice, or just want to discuss potential collaborations, feel free to reach out.</p>
 
     <div class="contact-details">
-        <p><strong>Email:</strong> <a href="mailto:infersol.coms@gmail.com">infersol.coms@gmail.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@infersol.uk">info@infersol.uk</a></p>
         <p><strong>Location:</strong> Cambridge, UK</p>
         <p><strong>Follow us:</strong>
             <a href="https://www.linkedin.com/company/infersol-ltd/about/" target="_blank">LinkedIn</a> |
