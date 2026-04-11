@@ -1,0 +1,98 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import portrait from '~/assets/images/portrait.jpg';
+
+const metadata = {
+  title: 'About',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="About"
+    title="Harry Bevins"
+    subtitle="Company Director and Lead Analyst at InferSol Ltd."
+  />
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'Research Fellow, University of Cambridge',
+        description:
+          'I currently work at the University of Cambridge on applications of machine learning to astrophysics and cosmology.',
+      },
+      {
+        title: 'PhD, University of Cambridge (2023)',
+        description:
+          'My doctoral research focused on Bayesian inference and machine learning methods applied to cosmological data.',
+      },
+      {
+        title: 'Specialist in Bayesian inference & statistics',
+        description:
+          'With a background in astrophysics, I bring a rigorous, mathematically grounded approach to every data problem.',
+      },
+    ]}
+    image={{
+      src: portrait,
+      alt: 'Harry Bevins',
+    }}
+  >
+    <Fragment slot="content">
+      <p class="text-lg">
+        I am a consultant specialising in machine learning and data analysis. I work closely with businesses to help them
+        unlock insights from their data and improve their operations through advanced analytical techniques.
+      </p>
+      <br />
+      <p>
+        A lot of consultancy in this space over-promises and under-delivers. I take a different view: every engagement
+        starts with understanding the business problem first, before any modelling. I favour interpretable,
+        well-validated models over black-box complexity, and work closely with clients throughout.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Steps2
+    title="Our approach"
+    subtitle="Three principles that guide every engagement."
+    items={[
+      {
+        title: 'Problem first',
+        description:
+          'We start by understanding your business problem before reaching for any tools or models. The right question matters more than a sophisticated answer.',
+      },
+      {
+        title: 'Interpretable over complex',
+        description:
+          'We favour models you can understand and trust over black-box complexity. A well-validated simple model is more valuable than an opaque one.',
+      },
+      {
+        title: 'Close collaboration',
+        description:
+          'We work with you throughout — not just at the start and end. You should understand what we\'re doing and why at every step.',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get in touch',
+        href: '/contact',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title">Want to work together?</Fragment>
+    <Fragment slot="subtitle">Drop us a line and we'll get back to you promptly.</Fragment>
+  </CallToAction>
+</Layout>
