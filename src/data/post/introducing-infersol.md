@@ -26,4 +26,4 @@ A lot of consultancy in this space over-promises and under-delivers. We take a d
 
 ## Get in touch
 
-If you have a data problem you're not sure how to approach, we'd be happy to have an initial conversation. Drop us an email at [infersol.coms@gmail.com](mailto:infersol.coms@gmail.com) or use the [contact form](/contact).
+If you have a data problem you're not sure how to approach, we'd be happy to have an initial conversation. Drop us an email at [info@infersol.uk](mailto:info@infersol.uk) or use the [contact form](/contact).
