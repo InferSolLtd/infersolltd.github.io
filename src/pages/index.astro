@@ -7,6 +7,9 @@ import Features from '~/components/widgets/Features.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
+import lightLogo from '~/assets/images/light-text-below.svg';
+import darkLogo from '~/assets/images/dark-text-below.svg';
 
 const metadata = {
   title: 'InferSol Ltd — Machine Learning & Data Analysis Consultancy',
@@ -23,6 +26,10 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
+      <div class="flex justify-center mb-4">
+        <Image src={lightLogo} alt="InferSol Ltd" height={200} class="dark:hidden" />
+        <Image src={darkLogo} alt="InferSol Ltd" height={200} class="hidden dark:block" />
+      </div>
       Machine learning and data analysis for
       <span class="text-accent dark:text-white"> real business problems</span>
     </Fragment>
@@ -38,7 +45,7 @@ const metadata = {
     id="services"
     tagline="What we do"
     title="Our services"
-    subtitle="We offer three core services, each built around understanding your problem first."
+    subtitle="We offer a range of advice and services to help understand your data."
     items={[
       {
         title: 'Machine Learning Applications',
@@ -58,6 +65,12 @@ const metadata = {
           'Hands-on sessions designed to build your team\'s confidence with data science and machine learning tools, from introductory to technical depth.',
         icon: 'tabler:school',
       },
+      {
+        title: 'Local Language Models and Tooling',
+        description:
+          'We help your workforce understand the LLM landscape, provide practical advice on running language models locally and desing and build LLM tools that are specific to your buisnesses needs.',
+        icon: 'tabler:robot'
+      }
     ]}
   />
 

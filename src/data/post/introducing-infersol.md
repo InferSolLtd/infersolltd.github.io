@@ -1,12 +1,20 @@
 ---
 publishDate: 2026-02-22T00:00:00Z
 title: "Introducing InferSol: Machine Learning Consultancy in Cambridge"
+image: ~/assets/images/light-text-below.svg
 excerpt: At InferSol, we help businesses make better decisions by applying machine learning and statistical analysis to their data.
 tags:
   - machine learning
   - data analysis
   - about us
 ---
+
+<div class="flex justify-center my-6">                     
+    <img src="/infersol-logo.svg" alt="InferSol Ltd" 
+  class="h-40 w-auto dark:hidden" />                         
+    <img src="/infersol-logo-dark.svg" alt="InferSol Ltd"  
+  class="h-40 w-auto hidden dark:block" />                   
+</div>   
 
 At InferSol, we help businesses make better decisions by applying machine learning and statistical analysis to their data. Based in Cambridge and drawing on years of research experience at the University of Cambridge, we specialise in building practical, tailored solutions — not off-the-shelf tools, but approaches designed around your specific problem.
 
