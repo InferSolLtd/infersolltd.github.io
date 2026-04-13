@@ -30,5 +30,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/InferSolLtd' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `InferSol Ltd &middot; Cambridge, UK &middot; Company No. registered in England and Wales.`,
+  footNote: `InferSol Ltd &middot; Cambridge, UK &middot; Company No. 16213017 registered in England and Wales.`,
 };
