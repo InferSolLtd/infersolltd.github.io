@@ -1,0 +1,10 @@
+---
+import { Image } from 'astro:assets';
+import lightLogo from '~/assets/images/light-text-right.svg';
+import darkLogo from '~/assets/images/dark-text-right.svg';
+---
+
+<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 whitespace-nowrap">
+  <Image src={lightLogo} alt="InferSol Ltd" height={36} class="dark:hidden" />
+  <Image src={darkLogo} alt="InferSol Ltd" height={36} class="hidden dark:block" />
+</span>

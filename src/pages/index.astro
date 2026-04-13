@@ -1,0 +1,136 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import portrait from '~/assets/images/portrait.jpeg';
+import Features from '~/components/widgets/Features.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
+import lightLogo from '~/assets/images/light-text-below.svg';
+import darkLogo from '~/assets/images/dark-text-below.svg';
+
+const metadata = {
+  title: 'InferSol Ltd — Machine Learning & Data Analysis Consultancy',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <Hero
+    actions={[
+      { variant: 'primary', text: 'Get in touch', href: '/contact' },
+      { text: 'Our work', href: '/blog' },
+    ]}
+  >
+    <Fragment slot="title">
+      <div class="flex justify-center mb-4">
+        <Image src={lightLogo} alt="InferSol Ltd" height={200} class="dark:hidden" />
+        <Image src={darkLogo} alt="InferSol Ltd" height={200} class="hidden dark:block" />
+      </div>
+      Machine learning and data analysis for
+      <span class="text-accent dark:text-white"> real business problems</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      We are a Cambridge-based consultancy specialising in machine learning and statistical analysis.
+      We work closely with businesses to unlock insights from their data and build practical, tailored solutions.
+    </Fragment>
+  </Hero>
+
+  <!-- Services -->
+  <Features
+    id="services"
+    tagline="What we do"
+    title="Our services"
+    subtitle="We offer a range of advice and services to help you understand your data."
+    items={[
+      {
+        title: 'Machine Learning Applications',
+        description:
+          'From predictive models to anomaly detection, we build small-scale ML systems that integrate directly with your workflows to solve your specific problem.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Data Analysis',
+        description:
+          'We apply rigorous statistical methods, rooted in Bayesian inference, to extract clear, actionable insights and help you ask better questions of your data.',
+        icon: 'tabler:chart-bar',
+      },
+      {
+        title: 'Workshops & Training',
+        description:
+          'Hands-on sessions designed to build your team\'s confidence with data science and machine learning tools, from introductory to technical depth.',
+        icon: 'tabler:school',
+      },
+      {
+        title: 'Local Language Models and Tooling',
+        description:
+          'We help your workforce understand the LLM landscape, provide practical advice on running language models locally and desing and build LLM tools that are specific to your buisnesses needs.',
+        icon: 'tabler:robot'
+      }
+    ]}
+  />
+
+  <!-- About snippet -->
+  <Content
+    isReversed
+    tagline="Who we are"
+    title="Cambridge expertise, applied to your data"
+    items={[
+      {
+        title: 'Research background',
+        description:
+          'Our approach is grounded in years of research at the University of Cambridge, applying Bayesian inference and machine learning to real-world problems in astrophysics and cosmology.',
+      },
+      {
+        title: 'Practical focus',
+        description:
+          'We favour interpretable, well-validated models over black-box complexity, and work closely with clients throughout rather than just handing over a report at the end.',
+      },
+      {
+        title: 'Problem-first approach',
+        description:
+          'Every engagement starts with understanding the business problem before any modelling. We help you ask better questions of your data, not just answer the ones you already have.',
+      },
+    ]}
+    image={{
+      src: portrait,
+      alt: 'Harry Bevins',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Led by Harry Bevins</h3>
+      Research Fellow at the University of Cambridge who gained his PhD in Physics in 2023. Specialist in Bayesian inference, machine learning, and statistical analysis.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Latest posts -->
+  <BlogLatestPosts
+    title="News & Projects"
+    information="Insights, case studies, and updates from InferSol, where we share what we've been working on and what we've learned along the way."
+  />
+
+  <!-- CTA -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get in touch',
+        href: '/contact',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title">Have a data problem?</Fragment>
+    <Fragment slot="subtitle">
+      If you're not sure how to approach it, we'd be happy to have an initial conversation — no commitment required.
+    </Fragment>
+  </CallToAction>
+</Layout>

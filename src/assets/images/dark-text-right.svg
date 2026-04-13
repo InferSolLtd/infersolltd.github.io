@@ -1,0 +1,10 @@
+<svg width="260" height="80" viewBox="0 0 260 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <g transform="translate(12, 12)">
+    <path d="M28 6L6 18L28 30L50 18L28 6Z" fill="white"/>
+    <path d="M6 28L28 40L50 28" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 38L28 50L50 38" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Text -->
+  <text x="90" y="55" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="42" font-weight="700" fill="white" letter-spacing="-1">infersol</text>
+</svg>

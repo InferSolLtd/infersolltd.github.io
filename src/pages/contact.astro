@@ -1,0 +1,56 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Contact"
+    title="Get in touch"
+    subtitle="Whether you have a project in mind, need expert advice, or just want to discuss a potential collaboration we'd love to hear from you."
+  />
+
+  <Features2
+    title="Reach us directly"
+    columns={3}
+    items={[
+      {
+        title: 'Email',
+        description: '<a href="mailto:info@infersol.uk" class="underline">info@infersol.uk</a>',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'LinkedIn',
+        description: '<a href="https://www.linkedin.com/company/infersol-ltd/about/" target="_blank" class="underline">InferSol Ltd</a>',
+        icon: 'tabler:brand-linkedin',
+      },
+      {
+        title: 'Location',
+        description: 'Cambridge, UK',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Send us an email',
+        href: 'mailto:info@infersol.uk',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title">Ready to talk?</Fragment>
+    <Fragment slot="subtitle">
+      Drop us an email and we'll get back to you promptly.
+    </Fragment>
+  </CallToAction>
+</Layout>
