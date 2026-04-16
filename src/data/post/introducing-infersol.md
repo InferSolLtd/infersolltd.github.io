@@ -2,7 +2,7 @@
 publishDate: 2026-02-22T00:00:00Z
 title: "Introducing InferSol: Machine Learning Consultancy in Cambridge"
 image: ~/assets/images/light-text-below.svg
-excerpt: At InferSol, we help businesses make better decisions by applying machine learning and statistical analysis to their data.
+excerpt: At InferSol, we help businesses make better decisions by developing and applying rigorous inference pipelines for their data.
 tags:
   - machine learning
   - data analysis
@@ -16,22 +16,20 @@ tags:
   class="h-40 w-auto hidden dark:block" />                   
 </div>   
 
-At InferSol, we help businesses make better decisions by applying machine learning and statistical analysis to their data. Based in Cambridge and drawing on years of research experience at the University of Cambridge, we specialise in building practical, tailored solutions — not off-the-shelf tools, but approaches designed around your specific problem.
+At InferSol, we help businesses and researchers make better decisions by developing and applying rigorous machine learning enhanced inference pipelines to their data. Based in Cambridge and drawing on years of research experience at the University of Cambridge, we specialise in building practical, tailored solutions — not off-the-shelf tools, but approaches designed around your specific problem.
 
 ## What we do
 
-We offer three core services:
+Understanding the implications of your data often involves building detailed mathematical models. This is true whether you are designing the next big breakthrough in biotech or designing low latency communication networks. However, these mathematical models can be computationally expensive taking hours or even days to run often with thousands of free parameters. Studying the relationship between these parameters is incredibly challenging, and connecting your model to data is often impossible.
 
-**Machine learning applications** — From predictive models to anomaly detection, we build small-scale ML systems that integrate directly with your workflows. Whether you need to forecast demand, classify customer behaviour, or surface patterns in operational data, we can help scope, build, and validate the right approach.
+One way around this is to use neural networks to emulate the relationship between the model and parameters of interests whether that is the amount of a drug being produced in an expression assay or the layout of an array of antennas. These surrogate models can be trained with a few hundred or thousands of simulations to replicate the output of your complex model in milliseconds unlocking your research and allowing you to explore in greater detail the relationship between your parameters and model.
 
-**Data analysis** — Sometimes the most valuable step is simply understanding what your data is telling you. We apply rigorous statistical methods — including Bayesian inference — to extract clear, actionable insights and help you ask better questions of your data.
-
-**Workshops and training** — We run hands-on sessions designed to build your team's confidence with data science and machine learning tools. These range from introductory sessions for non-technical audiences to deeper technical workshops for analysts and engineers.
+At InferSol we bring a grounded intuition for designing and developing surrogate models and a deep understanding of Bayesian inference to your problem. We work with you to build state-of-the-art surrogate models and use them to answer deep research questions that will have a profound impact on your business.
 
 ## Our approach
 
-A lot of consultancy in this space over-promises and under-delivers. We take a different view: every engagement starts with understanding the business problem first, before any modelling. We favour interpretable, well-validated models over black-box complexity, and we work closely with clients throughout rather than handing over a report at the end.
+When you get in touch with us with a research problem we take the time to fully understand your problem before we begin any kind of work. After an initial consultation, we'll provide you with a plan and timeline that we agree on together. Throughout the duration of a project, we work closely with clients to make sure we are on the right track. We favour transparency and explain everything we are doing at each step in terms you can understand, and we work with a small number of clients at a time to make sure every project gets proper attention. At the end of the project we make sure you have access to everything you need to reproduce what we have done including detailed documentation and code.
 
 ## Get in touch
 
-If you have a data problem you're not sure how to approach, we'd be happy to have an initial conversation. Drop us an email at [info@infersol.uk](mailto:info@infersol.uk) or use the [contact form](/contact).
+If you have a data problem you're not sure how to approach, we'd be happy to have an initial conversation. Drop us an email at [info@infersol.uk](mailto:info@infersol.uk).
